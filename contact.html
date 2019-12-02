@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 100%;
+    height:585px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px }
+    body {
+  background-color: coral;
+}
+
+  </style>
+</head>
+  <nav class="navbar navbar-inverse  navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><i>Kamboj Food and Beverages</i></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="food.html">See Food</a></li>
+      <li><a href="beverages.html">See Beverages</a></li>
+       <li><a href="contact.html" target="_self">Contact Us</a></li>
+    </ul>
+   
+  </div>
+</nav>
+
+<br><br>
+
+
+
+ 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(0,0,0,0.7);
+  padding: 20px;
+
+}
+.containers {
+  border-radius: 5px;
+  background-color: rgb(0,0,0,0.7);
+  padding: 0px;
+
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  background-image: url("f2.jpg");
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="color:white"><i>Kamboj Food and Beverages</i></h2>
+<p style="color: white"><marquee width="100%" direction="left" height="20px" class="containers">Do you have any questions related to food and beverages?? Please contact us.</marquee></p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname" style="color: white">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname" style="color: white">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-25">
+        <label for="lname" style="color: white">Email-id</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="mail" name="email" placeholder="Email-id..">
+      </div>
+    </div>
+   
+    <div class="row">
+      <div class="col-25">
+        <label for="subject" style="color: white">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+  <center><p style="color: white">Kamboj Food and Beverages<br>
+    7710298946<br>
+  contact@Kamboj.com</p></center>
+</div>
+
+</body>
+</html>
