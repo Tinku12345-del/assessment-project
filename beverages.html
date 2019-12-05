@@ -10,20 +10,20 @@
   <style>
    p
   {
-    color: white;
+    color: black;
     font-size: 15px;
     text-align: center;
   }
   h1{
-    color:white;
+    color:black;
     text-align: center;
   }
     body {
-  background-color: black;
+  background-color: lightgreen;
 }
 img
 {
-  border: 2px solid white;
+  border: 3px solid green;
   border-radius: 50px;
   
   margin-left:520px;
@@ -64,9 +64,10 @@ img:hover {
       <a class="navbar-brand" href="#"><i>Kamboj Food and Beverages</i></a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="index.html">Home</a></li>
+      <li style="color: green"><a href="index.html">Home</a></li>
       <li><a href="food.html">See Food</a></li>
       <li><a href="beverages.html">See Beverages</a></li>
+      <li><a href="random.html" target="_self">Recipes</a></li>
        <li><a href="contact.html" target="_self">Contact Us</a></li>
     </ul>
    
@@ -104,8 +105,10 @@ img:hover {
          var para1=obj.drinks[i].strInstructions
     
         name.innerHTML=name1
+
       image.setAttribute('src', image1)
       image.setAttribute("width","300px")
+     
        para.innerHTML=para1
         beverages.appendChild(name)
     beverages.appendChild(image)
